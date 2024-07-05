@@ -46,9 +46,11 @@ section{
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
-    cursor: default;
+    cursor: pointer;
     transition: .3s;
 }
+
+
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
@@ -61,6 +63,10 @@ section{
     /* box-shadow: 0 0 1rem black; */
 
     
+}
+#icon{
+    width:30px;
+    cursor: pointer;
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -77,6 +83,7 @@ section{
     height: 500px;
     border-color: black;
     border-style: solid;
+    box-shadow:20px 20px 50px;
     /* animation: floatImage 4s ease-in-out infinite; */
 }
 @keyframes floatImage{
@@ -170,43 +177,7 @@ span{
     font-size: 2.6rem;
     margin: 2rem 0 3rem;
 }
-.service h2{
-    margin-bottom: 5rem;
-}
-.service-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-.service-container .service-box{
-    flex: 1 1 30rem;
-    background: var(--second-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid var(--bg-color);
-    transition: .5s ease;
-}
-.service-container .service-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
-}
 
-.service-box i{
-    font-size: 7rem;
-    color: var(--main-color);
-
-}
-.service-box h3{
-    font-size: 2.6rem;
-
-}
-.service-box p{
-    font-size: 1.6rem;
-    margin:1rem 0 3rem ;
-}
 .portfolio{
     background:var(--second-color);
 
