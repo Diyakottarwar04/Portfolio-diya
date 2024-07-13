@@ -57,6 +57,7 @@ section{
     margin-left: 4rem;
     background-color: transparent;
 }
+
 .navbar a:hover,
 .navbar a.active{
     color:black;
